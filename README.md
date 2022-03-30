@@ -10,15 +10,15 @@ Ideia de uma página de viagens com um modal para registrar
 
 ![Desktop modal](https://user-images.githubusercontent.com/91435296/160871810-d56891b3-3ba7-4999-b876-e4977288f298.PNG)
 
-<h1> Mobile </h1>
-
+<h1 align="center"> Mobile </h1>
 <div align="center">
-  ![Mobile pgViagem](https://user-images.githubusercontent.com/91435296/160871956-b3166411-12c0-4434-8cd1-99fbfe166abc.PNG)
+  <img src="https://user-images.githubusercontent.com/91435296/160871956-b3166411-12c0-4434-8cd1-99fbfe166abc.PNG" />
 </div>
 
-<h3> Com modal aberto para cadastro </h3>
-
-![Mobile modal](https://user-images.githubusercontent.com/91435296/160872090-aa90fa6e-6199-450b-8639-55575a35c1cd.PNG)
+<h3 align='center'> Com modal aberto para cadastro </h3>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/91435296/160872090-aa90fa6e-6199-450b-8639-55575a35c1cd.PNG" />
+</div>
 
 <h3> Redes sociais </h3>
 <a href="https://www.instagram.com/nicolaslimadev/"> Instagram </a> <br>
