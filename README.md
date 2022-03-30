@@ -8,6 +8,8 @@ Ideia de uma página de viagens com um modal para registrar
 
 <h3> Com modal aberto para cadastro </h3>
 
+![Desktop modal](https://user-images.githubusercontent.com/91435296/160871810-d56891b3-3ba7-4999-b876-e4977288f298.PNG)
+
 <h1> Mobile </h1>
 <h3> Com modal aberto para cadastro </h3>
 
