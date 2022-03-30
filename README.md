@@ -11,6 +11,9 @@ Ideia de uma página de viagens com um modal para registrar
 ![Desktop modal](https://user-images.githubusercontent.com/91435296/160871810-d56891b3-3ba7-4999-b876-e4977288f298.PNG)
 
 <h1> Mobile </h1>
+
+![Mobile pgViagem](https://user-images.githubusercontent.com/91435296/160871956-b3166411-12c0-4434-8cd1-99fbfe166abc.PNG)
+
 <h3> Com modal aberto para cadastro </h3>
 
 <h3> Redes sociais </h3>
