@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Google Fonts - Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Travel Page</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h3 class="logo">Travel World</h3>
+
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Packages</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+        <a href="#" class="botao__registrar">Register</a>
+      </header>
+
+      <!-- Register Modal -->
+      <div class="registrar__modal" id="registrar-modal">
+        <h1>Register to receive notifications</h1>
+        <button id="btn-fechar">X</button>
+
+        <form>
+          <input type="text" placeholder="Nome" />
+
+          <input type="email" name="" id="" placeholder="E-mail" />
+
+          <input type="password" placeholder="Senha" />
+
+          <a href="#" class="botao__registrar">Register</a>
+        </form>
+      </div>
+
+      <section class="titulo">
+        <h1>Travel the world with tickets that fit in your pocket</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae magnam
+          ullam sequi delectus saepe officia ut quasi molestias minima ratione!
+          Laudantium in est praesentium quasi et sint commodi. Temporibus,
+          dolor?
+        </p>
+      </section>
+
+      <section class="box__viagens">
+        <label for="">Locations</label>
+        <select name="selecionar" id="">
+          <option value="">Location</option>
+        </select>
+
+        <label for="">Hotel</label>
+        <select name="select" id="">
+          <option value="">Location</option>
+        </select>
+
+        <label for=""></label>
+        <input
+          type="date"
+          name=""
+          id=""
+          class="data"
+          placeholder="01/01/2022"
+        />
+
+        <a href="#" class="botao__pesquisar">Pesquisar</a>
+      </section>
+    </main>
+
+    <script>
+      let btnRegistrar = document.querySelector('.botao__registrar')
+      btnRegistrar.addEventListener('click', (clicou)=>{
+        let modal = document.querySelector('#registrar-modal')
+        modal.style.display='block'
+      }) 
+
+      const btnFechar = document.querySelector('#btn-fechar');
+      btnFechar.addEventListener('click', ()=>{
+        let modal = document.querySelector('#registrar-modal')
+        modal.style.display='none'
+      })
+
+    </script>
+  </body>
+</html>

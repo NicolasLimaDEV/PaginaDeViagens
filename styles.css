@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    border: none;
+    outline: none;
+}
+
+main{
+    background: linear-gradient(rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.349)), url(pexels-asad-photo-maldives-3155666.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around; /* Mudar talvez*/
+    align-items: center;
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    top: 0;
+}
+
+.logo{
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu li a:hover{
+    border-bottom: 2px solid #069;
+}
+
+.botao__registrar{
+    padding: 10px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: #069;
+    color: #fff;
+}
+
+.botao__registrar:hover{
+    background-color: #023853;
+}
+
+/***/
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(85, 84, 84, 0.432);
+    backdrop-filter: blur(12px);
+}
+
+.titulo h1{
+    font-weight: bold;
+    padding: 10px;
+}
+
+/***/
+.box__viagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;  
+}
+
+.box__viagens label{
+    font-weight: bold;
+    padding: 12px;
+    color: #069;
+}
+
+.box__viagens select{
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: grey;
+    color: #fff;
+}
+
+.data{
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: grey;
+    color: #fff;
+}
+
+.botao__pesquisar{
+    margin-left: 20px;
+    padding: 10px 12px;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: #069;
+    color: #fff;
+}
+
+.botao__pesquisar:hover{
+    background-color: #023853;
+}
+
+/***/
+.registrar__modal{
+    display: none;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(85, 84, 84, 0.432);
+    backdrop-filter: blur(30px);
+    width: 100vw;
+    height: 100vh;
+    z-index: 200;
+    overflow: hidden;
+}
+
+.registrar__modal h1{
+    line-height: 7rem;
+    color: #fff;
+}
+
+.registrar__modal button{
+    position: absolute;
+    top: 2rem;
+    right: 5rem;
+    padding: 8px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background-color: #069;
+    color: #fff;
+    cursor: pointer;
+}
+
+.registrar__modal form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding: 30px;
+}
+
+.registrar__modal form input{
+    padding: 8px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 30rem;
+}
+
+.registrar__modal .botao__registrar{
+    width: 30rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px){
+    .logo{
+        display: none;
+    }
+
+    header{
+        margin: 1.2rem;
+        flex-wrap: wrap;
+    }
+
+    .botao__registrar{
+        margin-top: 2rem;
+    }
+
+    .titulo{
+        margin-top: 4rem;
+        margin-left: 1rem;
+        margin-right: 1rem; 
+        width: auto;
+        padding: 8px;
+    }
+
+    .box__viagens{
+        flex-direction: column;
+        margin-top: 1rem;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .botao__pesquisar{
+        margin-top: 1rem;
+    }
+        
+    /*** modal ***/
+    .registrar__modal h1{
+        font-size: 20px;
+    }
+
+    .registrar__modal button{
+        position: sticky;
+    }
+
+    .registrar__modal form input{
+        width: 100%;
+    }
+
+    .registrar__modal .botao__registrar{
+        width: 100%;
+
+    }
+}
