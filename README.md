@@ -3,7 +3,7 @@ Ideia de uma página de viagens com um modal para registrar
 
 
 <h1> Desktop </h1>
-![Desktop pgViagem](https://user-images.githubusercontent.com/91435296/160870654-8125aa4c-de98-4fcd-be5a-c670119d7a83.PNG)
+
 <h3> Com modal aberto para cadastro </h3>
 
 <h1> Mobile </h1>
