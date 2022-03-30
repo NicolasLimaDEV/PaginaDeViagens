@@ -12,7 +12,9 @@ Ideia de uma página de viagens com um modal para registrar
 
 <h1> Mobile </h1>
 
-![Mobile pgViagem](https://user-images.githubusercontent.com/91435296/160871956-b3166411-12c0-4434-8cd1-99fbfe166abc.PNG)
+<div align="center">
+  ![Mobile pgViagem](https://user-images.githubusercontent.com/91435296/160871956-b3166411-12c0-4434-8cd1-99fbfe166abc.PNG)
+</div>
 
 <h3> Com modal aberto para cadastro </h3>
 
